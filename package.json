@@ -1,0 +1,11 @@
+{
+  "name": "list-diff-ts",
+  "version": "1.0.0",
+  "description": "list-diff using typescript",
+  "main": "dist/index.js",
+  "author": "Ausar",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  }
+}

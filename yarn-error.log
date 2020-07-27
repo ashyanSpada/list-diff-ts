@@ -1,0 +1,46 @@
+Arguments: 
+  /usr/local/Cellar/node/13.2.0/bin/node /usr/local/bin/yarn publish
+
+PATH: 
+  /Users/wangjianfei/go/go1.14.1/bin:/Users/wangjianfei/go/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/wangjianfei/go/go1.14.1/bin/.:/Users/wangjianfei/go/bin/.
+
+Yarn version: 
+  1.19.2
+
+Node version: 
+  13.2.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:136846:13)
+      at Interface.emit (events.js:210:5)
+      at Interface._ttyWrite (readline.js:885:16)
+      at ReadStream.onkeypress (readline.js:191:10)
+      at ReadStream.emit (events.js:210:5)
+      at emitKeys (internal/readline/utils.js:433:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1151:36)
+      at ReadStream.emit (events.js:210:5)
+      at addChunk (_stream_readable.js:326:12)
+
+npm manifest: 
+  {
+    "name": "list-diff-ts",
+    "version": "1.0.0",
+    "description": "list-diff using typescript",
+    "main": "dist/index.js",
+    "author": "Ausar",
+    "license": "MIT",
+    "scripts": {
+      "build": "tsc"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
